@@ -1,0 +1,17 @@
+server:
+  port: 1025
+spring:
+  profiles:
+    active: dev
+  application:
+    name: eureka-server
+  security:
+    user:
+      name: admin
+      password: admin
+      roles: admin
+eureka:
+  environment: ${spring.profiles.active}
+  instance:
+    prefer-ip-address: true
+    instance-id: ${host-addr}:${server.port}
