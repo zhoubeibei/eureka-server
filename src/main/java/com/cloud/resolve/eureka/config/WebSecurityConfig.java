@@ -6,19 +6,13 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
-import org.springframework.security.crypto.factory.PasswordEncoderFactories;
 import org.springframework.security.crypto.password.PasswordEncoder;
-
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * security 配置
  *
- * @author zhoubeibei
- * @version 创建时间: 2018-12-18 21:45
+ * @author 周贝贝
+ * @since 2018-12-18
  */
 @Configuration
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {

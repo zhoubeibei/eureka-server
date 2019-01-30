@@ -7,8 +7,8 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 
 /**
  * 加密配置
- * @author zhoubeibei
- * @version 创建时间: 2018-12-18 22:02
+ * @author 周贝贝
+ * @since 2018-12-18
  */
 @Configuration
 public class EncoderConfig {
